@@ -1,0 +1,1424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0486524376D0C28533F2FCC80BC908E8 /* MQTTSSLSecurityPolicyEncoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FECAD846D64FA43987ED251B86A68BC /* MQTTSSLSecurityPolicyEncoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		05E02F644621830AD1B6AFCB360E4B63 /* MQTTSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 95B2E2D61F57F605CFAF4FB9C59B2A64 /* MQTTSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07648C73DBBACF07DA595524C37E1927 /* MQTTSessionLegacy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB4AC7242CE827FADEAAABD0FBCCF46 /* MQTTSessionLegacy.m */; settings = {COMPILER_FLAGS = "-DLUMBERJACK"; }; };
+		07D58AE597DBD36A8C6A0753CC9D95DB /* DDFileLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A3C6C7E0C3F6DC35AEA65D18AB193D4 /* DDFileLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		09530F788D33288F418BF957B331CA98 /* CocoaLumberjack-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C2095724A5D067D3455E8C4A91196011 /* CocoaLumberjack-dummy.m */; };
+		1810E37D69AF5D8A85B3AAF5F62C8A23 /* MQTTSSLSecurityPolicyEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 94CE643DB172FA21FBD2C920FBF81EE0 /* MQTTSSLSecurityPolicyEncoder.m */; settings = {COMPILER_FLAGS = "-DLUMBERJACK"; }; };
+		1AC10BCAF99C55C05358D48EAE43ABE1 /* Pods-emqttTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 196D793E6710DCF5BBEDCB8D18F9F84E /* Pods-emqttTests-dummy.m */; };
+		1C40C4D57B78EB4CC9EB35D567212187 /* MQTTInMemoryPersistence.h in Headers */ = {isa = PBXBuildFile; fileRef = 70BC1ED27B55757F644E80F4D62288C3 /* MQTTInMemoryPersistence.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20E4C2D2E3A8FBF4EE7280DC00F08052 /* CocoaLumberjack.h in Headers */ = {isa = PBXBuildFile; fileRef = 890981B31110ED4A3E7477C3834C63D0 /* CocoaLumberjack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21AC56E876CCC672A97BA46A54947793 /* DDDispatchQueueLogFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D88568B129D828B81DF76900C634397 /* DDDispatchQueueLogFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		242F6B967053165C909842552A0BEE21 /* MQTTClient-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B567A56E2FB83F945C32483561FAB4E4 /* MQTTClient-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A05584F11DE75009B36CC58AEBF9308 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE895120379BE9D98EF5040839CE0FE7 /* Foundation.framework */; };
+		3816A30D7E3BDC68526D1E566AA56BE0 /* MQTTClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CB8AC8D9EB402E1960A76E6BFA50788 /* MQTTClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		419387695413E83DB5D41FD434F620A1 /* MQTTSSLSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 53AE802000EB048F2A858D54C6CFB1C4 /* MQTTSSLSecurityPolicy.m */; settings = {COMPILER_FLAGS = "-DLUMBERJACK"; }; };
+		436AE466682B642CD6B8243CD439669A /* MQTTSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 05BBCF588559A78E384AEB3FA0312C17 /* MQTTSession.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		440ED7058292E892922DF16DF6270D80 /* DDASLLogCapture.h in Headers */ = {isa = PBXBuildFile; fileRef = 4181C81FAE896307C8FCFBD9BF39E09D /* DDASLLogCapture.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		482D5787F02589814442A88FE01DBDAD /* MQTTSSLSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 18E867B2DAEA5ECDA7DAE4FFFD953D63 /* MQTTSSLSecurityPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E5F5F785D29FDE98D5EF43210C09E51 /* MQTTCFSocketTransport.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A3FAF7AA47E457C449766FC7B7E7B5F /* MQTTCFSocketTransport.m */; settings = {COMPILER_FLAGS = "-DLUMBERJACK"; }; };
+		4F438FF2B42061581D1EB551A6A62CA7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE895120379BE9D98EF5040839CE0FE7 /* Foundation.framework */; };
+		4FFBF72711EC7EB2533868C9DA06AEE7 /* MQTTSSLSecurityPolicyDecoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 23D295EA52691E3BE0F1352CCB715AC1 /* MQTTSSLSecurityPolicyDecoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		555BEA56D6E419DE88F5AD16A5C16665 /* DDMultiFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = CE620B2061A90F7C4F8A955D388B2D63 /* DDMultiFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		598B2727E6877770B6AB385EF39A3955 /* DDTTYLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 6380A9FAF9077C911C426EE113EF3121 /* DDTTYLogger.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		5D5B973722947F9C757747B2D26EDF79 /* MQTTLog.h in Headers */ = {isa = PBXBuildFile; fileRef = A2CB7DC782D49AE4CAFE9AD198686FAE /* MQTTLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D912DEBB59095813DB51615F222A53F /* Pods-emqtt-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FB4891830B9AC204E4A7102DE70915D /* Pods-emqtt-dummy.m */; };
+		5DB1EBE1892D282CC8D239A5417188E7 /* DDTTYLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = D489231EA8FF534A9A61F2E89EA42591 /* DDTTYLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		624BABF452CDC42C91D7E9B376FFA00B /* MQTTCFSocketEncoder.h in Headers */ = {isa = PBXBuildFile; fileRef = EB00E64A33ECC6AB7C8316728DCA6E4E /* MQTTCFSocketEncoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66E12DE1E8F1AAE07824E3541F9CE8DF /* DDASLLogCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = D6698DD9D074E17D357C3D53BCF81092 /* DDASLLogCapture.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		67018D79A6764C76B5606D5E7F91DFCF /* MQTTSSLSecurityPolicyDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B2C5F2A3F3C702A18F40538AA14089D /* MQTTSSLSecurityPolicyDecoder.m */; settings = {COMPILER_FLAGS = "-DLUMBERJACK"; }; };
+		6918001195C9BDB0C62FDB3DEC589CF3 /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C54B5F8C28372E0E9A45ADC1B62AA9E2 /* CocoaLumberjack.framework */; };
+		6BE40C1D39187EF49FE84888C77DACC1 /* MQTTInMemoryPersistence.m in Sources */ = {isa = PBXBuildFile; fileRef = 512D2A01A5558A094411941E8AAB5599 /* MQTTInMemoryPersistence.m */; settings = {COMPILER_FLAGS = "-DLUMBERJACK"; }; };
+		6D1C48852DA35FAFF2B6B03B6E8F6D58 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE895120379BE9D98EF5040839CE0FE7 /* Foundation.framework */; };
+		6E5F7F980914116488E7BF8475B25AFC /* MQTTCFSocketDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = A960092389B6AB25A9A622E23FA79C5D /* MQTTCFSocketDecoder.m */; settings = {COMPILER_FLAGS = "-DLUMBERJACK"; }; };
+		71DA9BA1C4D396B5F0D1B66E90F57224 /* DDLegacyMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = A4C6402C9BC59FB700D3070F29773276 /* DDLegacyMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		73821CC0DBCF103FD710764B2FCD4AB7 /* DDAbstractDatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C919B03CBE53CBF962902079585EE1 /* DDAbstractDatabaseLogger.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		7921BD5740D6A6A325E189B6EE194BFC /* Pods-emqtt-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E79B8372DAAF418878EBAB1EBA8C1867 /* Pods-emqtt-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7BD2B9D030B1971FB07005835C64B44C /* MQTTSSLSecurityPolicyTransport.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C510AB3AA3FB7F1D9B7B4D43563F7F0 /* MQTTSSLSecurityPolicyTransport.m */; settings = {COMPILER_FLAGS = "-DLUMBERJACK"; }; };
+		7F5AE36B7178B1469CEFE863886A7B49 /* MQTTSSLSecurityPolicyTransport.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FD0DAD5875C8CD5ED17BD0741B36391 /* MQTTSSLSecurityPolicyTransport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		84089CE7912FCE2E865A7541D4D646BC /* DDAssertMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = C8738F150856C27B889662EC0BBBDEDA /* DDAssertMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		844C12EBA5A1D9A7542A3D3EA7C68CEF /* DDASLLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 1590384E6C7919A8AE095316C6C448B2 /* DDASLLogger.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		85F315B4ACED12ADE2D19CF8D697D30D /* Pods-emqttUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F6A827410DDC0F64FA48F8449C7046F /* Pods-emqttUITests-dummy.m */; };
+		8F6493936722171241852612DC3D2E80 /* Pods-emqttTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C70DA125881E3F483300900A03B11B09 /* Pods-emqttTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		92CAFE32794C04A6FC821A2AC114B936 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE895120379BE9D98EF5040839CE0FE7 /* Foundation.framework */; };
+		930757E01D160502266DF25E880B306F /* MQTTPersistence.h in Headers */ = {isa = PBXBuildFile; fileRef = 32A0B99E47217AA0C2603A76E9CA2AE0 /* MQTTPersistence.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		949EED6F48CC381180BFD95B16B07505 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE895120379BE9D98EF5040839CE0FE7 /* Foundation.framework */; };
+		A0AAE45163E864616A9C74340E8B500D /* DDMultiFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E3A46FDE685AD82B424C3A28E61AEC0 /* DDMultiFormatter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A1D8B2E90A4C68C90CCA0BA78B58E23A /* DDAbstractDatabaseLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = C004F4EDAA98C3B2BDB3E681557BC1E8 /* DDAbstractDatabaseLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A7755C64BEC4BDDD9E9C7A1FFDD00EE4 /* DDContextFilterLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F974FA534454B0F546F56EEF203927 /* DDContextFilterLogFormatter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		AF63B684B998A1CA4DF52D244E646CD7 /* MQTTSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 40BF14439849F9A2D0CEF51465F15898 /* MQTTSession.m */; settings = {COMPILER_FLAGS = "-DLUMBERJACK"; }; };
+		B15C231A9095D89E3DBAAE4B24E659D9 /* MQTTMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = A4F1935BEBAC5F225FFDF5B10336DB56 /* MQTTMessage.m */; settings = {COMPILER_FLAGS = "-DLUMBERJACK"; }; };
+		B4E5146EE9500BD45D0DCC7E6D11A52B /* MQTTCFSocketEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = E55EAAA48F924CE338C2344E404DE9DD /* MQTTCFSocketEncoder.m */; settings = {COMPILER_FLAGS = "-DLUMBERJACK"; }; };
+		B60128D8C5C2243076602988AE85499A /* MQTTSessionLegacy.h in Headers */ = {isa = PBXBuildFile; fileRef = CB656BBF6B4D342A6C8BE867B4D7B8BD /* MQTTSessionLegacy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B8F9A0A7C85CFFF3B78A4C4A881CD68C /* MQTTMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A02DB26C0B90D5B23DF62A326FE43CD /* MQTTMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C09CF18AC416134EB9A48C1F5DDA30B4 /* DDDispatchQueueLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = B91AC0477FBCB2045D5B0119ABA29034 /* DDDispatchQueueLogFormatter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C1F971C5CC169692AD03929CC08BBE42 /* MQTTDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = AF52DB7090ED071383B50E69E3C45F3C /* MQTTDecoder.m */; settings = {COMPILER_FLAGS = "-DLUMBERJACK"; }; };
+		C49CA9548538E93C79C5A22537421E12 /* MQTTCoreDataPersistence.m in Sources */ = {isa = PBXBuildFile; fileRef = AE87499E2FB333A21D91927CF2DB5B1B /* MQTTCoreDataPersistence.m */; settings = {COMPILER_FLAGS = "-DLUMBERJACK"; }; };
+		C6525E57B07A1FD75630D25AE33C0021 /* Pods-emqttUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 061BB7F2BFB6037CE403D1852758EE8B /* Pods-emqttUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA6C73C03FC11496712BC31F27C89577 /* DDLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EA942EF4B7274F3DD111C321CF0C7FA /* DDLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF24B401E0D7B990DA760663E371698E /* DDLogMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = A7350092E3C90A79AE9C18E77B7BD5F2 /* DDLogMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D6DD09D085815F237FE0413FFE890D41 /* DDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = BCBC71C14CBB5CDCA844CC5D1877662F /* DDLog.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D81C650E58F5652F51C413B215E3C0B1 /* MQTTSessionSynchron.h in Headers */ = {isa = PBXBuildFile; fileRef = EDD8D48CF08C72724DB83461C8AB5644 /* MQTTSessionSynchron.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE8B190AD52FABD9D5AF6D6CBD6ECF86 /* MQTTDecoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 5739454F3A911E2556A7507FB9A62067 /* MQTTDecoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2056C6873AE99613259C81D21B1CB73 /* MQTTSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF37977827ECC6920851687906D6643 /* MQTTSessionManager.m */; settings = {COMPILER_FLAGS = "-DLUMBERJACK"; }; };
+		E3796B2915942032D0E29FD6AA647E33 /* DDASLLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 980BEA78DBB92DEAFA42C0EE9E4CE385 /* DDASLLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E468F5BDE403594FFF9CD339FDCA6157 /* MQTTCoreDataPersistence.h in Headers */ = {isa = PBXBuildFile; fileRef = B32AE4F96C2A3B7BE04E53CDAD34A609 /* MQTTCoreDataPersistence.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7D8368EBE5EF7F2ED963AFE95D0AB3A /* MQTTSessionSynchron.m in Sources */ = {isa = PBXBuildFile; fileRef = 256DB04B347256FD9CFD2C9E122B094E /* MQTTSessionSynchron.m */; settings = {COMPILER_FLAGS = "-DLUMBERJACK"; }; };
+		EBC118173BE8DA30A0259FF10ECAB567 /* DDContextFilterLogFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 29EA188A439D07684936B567C88FF009 /* DDContextFilterLogFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC060F2D2A6EAA0873553CC34A74328E /* MQTTClient-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B00B8BCA6E2AB8EBB99356D3576673E /* MQTTClient-dummy.m */; };
+		EFC2C74CC757017953D46E9484488C39 /* DDLog+LOGV.h in Headers */ = {isa = PBXBuildFile; fileRef = 78CE940F485015593B2F1D61D51DA7C8 /* DDLog+LOGV.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F22D9AE948F670255F13DCA41A96EDD6 /* MQTTCFSocketTransport.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CB02CA29847895989794454CC023E6C /* MQTTCFSocketTransport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F271CF75A7188BD907207DDD6AD9FE9C /* DDFileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 76AE7844284A36329E0925E2B5AC1CE4 /* DDFileLogger.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F3060298E469E59E34CBCFBFDFA73ABB /* MQTTCFSocketDecoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F41408BF9746D114411D7CAC75D2296 /* MQTTCFSocketDecoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F36E633C82BFFB3F922A855009DC0826 /* MQTTTransport.h in Headers */ = {isa = PBXBuildFile; fileRef = 104422416713215B22C50A46746FA2AE /* MQTTTransport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F719EB5EE4A9A3A8FDA16A5AE9BC6016 /* MQTTTransport.m in Sources */ = {isa = PBXBuildFile; fileRef = F418FC4369A1CDCA00AC87BF19264A67 /* MQTTTransport.m */; settings = {COMPILER_FLAGS = "-DLUMBERJACK"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2AD3B64D05B2059B37CAEFF7DEC5E8FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18D5937A1FF4E1064BDE592E5E9532EA;
+			remoteInfo = MQTTClient;
+		};
+		31F3A67E4B993D4080B539D1FA527BC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E95654B155D25890BE8E26081FCA8265;
+			remoteInfo = CocoaLumberjack;
+		};
+		3405E5ECF260D91C40153F405E9A7970 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E97A1CA5F12BE379F8C802C3FD7CD30;
+			remoteInfo = "Pods-emqtt";
+		};
+		DEE514018F3F33859301F87EF87FE235 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E97A1CA5F12BE379F8C802C3FD7CD30;
+			remoteInfo = "Pods-emqtt";
+		};
+		E10CE1D415F39598EF0C3F1CD8D6902A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E95654B155D25890BE8E26081FCA8265;
+			remoteInfo = CocoaLumberjack;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0297B7F9F7FCB66016DD6386B5E4E2E7 /* CocoaLumberjack-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaLumberjack-prefix.pch"; sourceTree = "<group>"; };
+		05BBCF588559A78E384AEB3FA0312C17 /* MQTTSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MQTTSession.h; path = MQTTClient/MQTTClient/MQTTSession.h; sourceTree = "<group>"; };
+		061BB7F2BFB6037CE403D1852758EE8B /* Pods-emqttUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-emqttUITests-umbrella.h"; sourceTree = "<group>"; };
+		0DB3C12D212B38BD406CAF685C0FDDB0 /* Pods-emqttUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-emqttUITests.modulemap"; sourceTree = "<group>"; };
+		104422416713215B22C50A46746FA2AE /* MQTTTransport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MQTTTransport.h; path = MQTTClient/MQTTClient/MQTTTransport.h; sourceTree = "<group>"; };
+		1590384E6C7919A8AE095316C6C448B2 /* DDASLLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDASLLogger.m; path = Classes/DDASLLogger.m; sourceTree = "<group>"; };
+		18E867B2DAEA5ECDA7DAE4FFFD953D63 /* MQTTSSLSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MQTTSSLSecurityPolicy.h; path = MQTTClient/MQTTClient/MQTTSSLSecurityPolicy.h; sourceTree = "<group>"; };
+		196D793E6710DCF5BBEDCB8D18F9F84E /* Pods-emqttTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-emqttTests-dummy.m"; sourceTree = "<group>"; };
+		1C510AB3AA3FB7F1D9B7B4D43563F7F0 /* MQTTSSLSecurityPolicyTransport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MQTTSSLSecurityPolicyTransport.m; path = MQTTClient/MQTTClient/MQTTSSLSecurityPolicyTransport.m; sourceTree = "<group>"; };
+		1CB8AC8D9EB402E1960A76E6BFA50788 /* MQTTClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MQTTClient.h; path = MQTTClient/MQTTClient/MQTTClient.h; sourceTree = "<group>"; };
+		23D295EA52691E3BE0F1352CCB715AC1 /* MQTTSSLSecurityPolicyDecoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MQTTSSLSecurityPolicyDecoder.h; path = MQTTClient/MQTTClient/MQTTSSLSecurityPolicyDecoder.h; sourceTree = "<group>"; };
+		256DB04B347256FD9CFD2C9E122B094E /* MQTTSessionSynchron.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MQTTSessionSynchron.m; path = MQTTClient/MQTTClient/MQTTSessionSynchron.m; sourceTree = "<group>"; };
+		25C919B03CBE53CBF962902079585EE1 /* DDAbstractDatabaseLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDAbstractDatabaseLogger.m; path = Classes/DDAbstractDatabaseLogger.m; sourceTree = "<group>"; };
+		29EA188A439D07684936B567C88FF009 /* DDContextFilterLogFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDContextFilterLogFormatter.h; path = Classes/Extensions/DDContextFilterLogFormatter.h; sourceTree = "<group>"; };
+		2D88568B129D828B81DF76900C634397 /* DDDispatchQueueLogFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDDispatchQueueLogFormatter.h; path = Classes/Extensions/DDDispatchQueueLogFormatter.h; sourceTree = "<group>"; };
+		2EA942EF4B7274F3DD111C321CF0C7FA /* DDLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDLog.h; path = Classes/DDLog.h; sourceTree = "<group>"; };
+		2F6A827410DDC0F64FA48F8449C7046F /* Pods-emqttUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-emqttUITests-dummy.m"; sourceTree = "<group>"; };
+		32A0B99E47217AA0C2603A76E9CA2AE0 /* MQTTPersistence.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MQTTPersistence.h; path = MQTTClient/MQTTClient/MQTTPersistence.h; sourceTree = "<group>"; };
+		38D633028095652865573E5037B48C60 /* CocoaLumberjack.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaLumberjack.xcconfig; sourceTree = "<group>"; };
+		3A3C6C7E0C3F6DC35AEA65D18AB193D4 /* DDFileLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDFileLogger.h; path = Classes/DDFileLogger.h; sourceTree = "<group>"; };
+		3BF31CE218913A11ABBE99B44BD1D67E /* Pods-emqttTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-emqttTests.modulemap"; sourceTree = "<group>"; };
+		3CB02CA29847895989794454CC023E6C /* MQTTCFSocketTransport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MQTTCFSocketTransport.h; path = MQTTClient/MQTTClient/MQTTCFSocketTransport.h; sourceTree = "<group>"; };
+		3DF37977827ECC6920851687906D6643 /* MQTTSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MQTTSessionManager.m; path = MQTTClient/MQTTClient/MQTTSessionManager.m; sourceTree = "<group>"; };
+		3F62C6F375CCFEB79ADBC113CF3855E4 /* MQTTClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MQTTClient.framework; path = MQTTClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FD0DAD5875C8CD5ED17BD0741B36391 /* MQTTSSLSecurityPolicyTransport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MQTTSSLSecurityPolicyTransport.h; path = MQTTClient/MQTTClient/MQTTSSLSecurityPolicyTransport.h; sourceTree = "<group>"; };
+		40BF14439849F9A2D0CEF51465F15898 /* MQTTSession.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MQTTSession.m; path = MQTTClient/MQTTClient/MQTTSession.m; sourceTree = "<group>"; };
+		4181C81FAE896307C8FCFBD9BF39E09D /* DDASLLogCapture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDASLLogCapture.h; path = Classes/DDASLLogCapture.h; sourceTree = "<group>"; };
+		43979DF39375131EE773CD7760ED8C6B /* Pods-emqttUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-emqttUITests-Info.plist"; sourceTree = "<group>"; };
+		4493A0E636F961FEF43818C291856399 /* CocoaLumberjack.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CocoaLumberjack.modulemap; sourceTree = "<group>"; };
+		4E6D5F64F1C56A98E03F180B76F4E853 /* Pods-emqtt-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-emqtt-acknowledgements.markdown"; sourceTree = "<group>"; };
+		512D2A01A5558A094411941E8AAB5599 /* MQTTInMemoryPersistence.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MQTTInMemoryPersistence.m; path = MQTTClient/MQTTClient/MQTTInMemoryPersistence.m; sourceTree = "<group>"; };
+		53AE802000EB048F2A858D54C6CFB1C4 /* MQTTSSLSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MQTTSSLSecurityPolicy.m; path = MQTTClient/MQTTClient/MQTTSSLSecurityPolicy.m; sourceTree = "<group>"; };
+		5473BB7B15211E9DC734DE3D1F84EDCC /* CocoaLumberjack-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CocoaLumberjack-Info.plist"; sourceTree = "<group>"; };
+		54E20DF9FB767BE2188A0AFB8D6A1A92 /* Pods_emqtt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_emqtt.framework; path = "Pods-emqtt.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55D5FF85C7B7A130658120321D9B7A37 /* MQTTClient.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MQTTClient.xcconfig; sourceTree = "<group>"; };
+		5739454F3A911E2556A7507FB9A62067 /* MQTTDecoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MQTTDecoder.h; path = MQTTClient/MQTTClient/MQTTDecoder.h; sourceTree = "<group>"; };
+		5EB4AC7242CE827FADEAAABD0FBCCF46 /* MQTTSessionLegacy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MQTTSessionLegacy.m; path = MQTTClient/MQTTClient/MQTTSessionLegacy.m; sourceTree = "<group>"; };
+		60736577CFE18521EF7441545215D1E6 /* Pods-emqttUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-emqttUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		62152E3B6BA8DC8DCC09549D0EDBF54B /* MQTTClient-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MQTTClient-prefix.pch"; sourceTree = "<group>"; };
+		62FA4F39B23007084DB0955BBE4B0715 /* Pods-emqttTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-emqttTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6380A9FAF9077C911C426EE113EF3121 /* DDTTYLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDTTYLogger.m; path = Classes/DDTTYLogger.m; sourceTree = "<group>"; };
+		6919288B2E8E01C5CD5959DD4016F92A /* MQTTClient-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MQTTClient-Info.plist"; sourceTree = "<group>"; };
+		6B4F555E5F77359DF334253D2E28F8FF /* CocoaLumberjack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CocoaLumberjack.framework; path = CocoaLumberjack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F41408BF9746D114411D7CAC75D2296 /* MQTTCFSocketDecoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MQTTCFSocketDecoder.h; path = MQTTClient/MQTTClient/MQTTCFSocketDecoder.h; sourceTree = "<group>"; };
+		6FB4891830B9AC204E4A7102DE70915D /* Pods-emqtt-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-emqtt-dummy.m"; sourceTree = "<group>"; };
+		6FECAD846D64FA43987ED251B86A68BC /* MQTTSSLSecurityPolicyEncoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MQTTSSLSecurityPolicyEncoder.h; path = MQTTClient/MQTTClient/MQTTSSLSecurityPolicyEncoder.h; sourceTree = "<group>"; };
+		704AECA1F8615E44FCDCB7E10C508E06 /* Pods-emqtt.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-emqtt.modulemap"; sourceTree = "<group>"; };
+		70BC1ED27B55757F644E80F4D62288C3 /* MQTTInMemoryPersistence.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MQTTInMemoryPersistence.h; path = MQTTClient/MQTTClient/MQTTInMemoryPersistence.h; sourceTree = "<group>"; };
+		76AE7844284A36329E0925E2B5AC1CE4 /* DDFileLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDFileLogger.m; path = Classes/DDFileLogger.m; sourceTree = "<group>"; };
+		78CE940F485015593B2F1D61D51DA7C8 /* DDLog+LOGV.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "DDLog+LOGV.h"; path = "Classes/DDLog+LOGV.h"; sourceTree = "<group>"; };
+		7A3FAF7AA47E457C449766FC7B7E7B5F /* MQTTCFSocketTransport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MQTTCFSocketTransport.m; path = MQTTClient/MQTTClient/MQTTCFSocketTransport.m; sourceTree = "<group>"; };
+		81A9B2CD19D77D73F62A4D659B33A557 /* Pods-emqttUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-emqttUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		84F974FA534454B0F546F56EEF203927 /* DDContextFilterLogFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDContextFilterLogFormatter.m; path = Classes/Extensions/DDContextFilterLogFormatter.m; sourceTree = "<group>"; };
+		890981B31110ED4A3E7477C3834C63D0 /* CocoaLumberjack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CocoaLumberjack.h; path = Classes/CocoaLumberjack.h; sourceTree = "<group>"; };
+		8B00B8BCA6E2AB8EBB99356D3576673E /* MQTTClient-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MQTTClient-dummy.m"; sourceTree = "<group>"; };
+		8B2C5F2A3F3C702A18F40538AA14089D /* MQTTSSLSecurityPolicyDecoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MQTTSSLSecurityPolicyDecoder.m; path = MQTTClient/MQTTClient/MQTTSSLSecurityPolicyDecoder.m; sourceTree = "<group>"; };
+		8E3A46FDE685AD82B424C3A28E61AEC0 /* DDMultiFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDMultiFormatter.m; path = Classes/Extensions/DDMultiFormatter.m; sourceTree = "<group>"; };
+		8EBB14DF8171DC326B6D34609EB7F129 /* Pods-emqtt-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-emqtt-Info.plist"; sourceTree = "<group>"; };
+		929D692A5333B81959FAD8B4459A980F /* Pods-emqttTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-emqttTests.debug.xcconfig"; sourceTree = "<group>"; };
+		94CE643DB172FA21FBD2C920FBF81EE0 /* MQTTSSLSecurityPolicyEncoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MQTTSSLSecurityPolicyEncoder.m; path = MQTTClient/MQTTClient/MQTTSSLSecurityPolicyEncoder.m; sourceTree = "<group>"; };
+		95B2E2D61F57F605CFAF4FB9C59B2A64 /* MQTTSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MQTTSessionManager.h; path = MQTTClient/MQTTClient/MQTTSessionManager.h; sourceTree = "<group>"; };
+		980BEA78DBB92DEAFA42C0EE9E4CE385 /* DDASLLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDASLLogger.h; path = Classes/DDASLLogger.h; sourceTree = "<group>"; };
+		9A02DB26C0B90D5B23DF62A326FE43CD /* MQTTMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MQTTMessage.h; path = MQTTClient/MQTTClient/MQTTMessage.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A2CB7DC782D49AE4CAFE9AD198686FAE /* MQTTLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MQTTLog.h; path = MQTTClient/MQTTClient/MQTTLog.h; sourceTree = "<group>"; };
+		A4C6402C9BC59FB700D3070F29773276 /* DDLegacyMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDLegacyMacros.h; path = Classes/DDLegacyMacros.h; sourceTree = "<group>"; };
+		A4F1935BEBAC5F225FFDF5B10336DB56 /* MQTTMessage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MQTTMessage.m; path = MQTTClient/MQTTClient/MQTTMessage.m; sourceTree = "<group>"; };
+		A5DC245CA7A995AEF409209027C9D602 /* Pods-emqttTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-emqttTests-Info.plist"; sourceTree = "<group>"; };
+		A7350092E3C90A79AE9C18E77B7BD5F2 /* DDLogMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDLogMacros.h; path = Classes/DDLogMacros.h; sourceTree = "<group>"; };
+		A960092389B6AB25A9A622E23FA79C5D /* MQTTCFSocketDecoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MQTTCFSocketDecoder.m; path = MQTTClient/MQTTClient/MQTTCFSocketDecoder.m; sourceTree = "<group>"; };
+		A9687E234F537BC2EC19A0DA29B60B05 /* Pods_emqttUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_emqttUITests.framework; path = "Pods-emqttUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE87499E2FB333A21D91927CF2DB5B1B /* MQTTCoreDataPersistence.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MQTTCoreDataPersistence.m; path = MQTTClient/MQTTClient/MQTTCoreDataPersistence.m; sourceTree = "<group>"; };
+		AE9F2B425027F38CF5F5912AAC615B07 /* MQTTClient.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MQTTClient.modulemap; sourceTree = "<group>"; };
+		AF52DB7090ED071383B50E69E3C45F3C /* MQTTDecoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MQTTDecoder.m; path = MQTTClient/MQTTClient/MQTTDecoder.m; sourceTree = "<group>"; };
+		B32AE4F96C2A3B7BE04E53CDAD34A609 /* MQTTCoreDataPersistence.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MQTTCoreDataPersistence.h; path = MQTTClient/MQTTClient/MQTTCoreDataPersistence.h; sourceTree = "<group>"; };
+		B42C8709ABD90A071DF23ED4FC67AFDC /* Pods-emqttUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-emqttUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B4EE4106B556978ED55E1D4F7B6229F7 /* Pods-emqttTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-emqttTests.release.xcconfig"; sourceTree = "<group>"; };
+		B5310A19A8A3FB3804E7D73FD29FF15F /* Pods-emqttTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-emqttTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B567A56E2FB83F945C32483561FAB4E4 /* MQTTClient-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MQTTClient-umbrella.h"; sourceTree = "<group>"; };
+		B66BCA4FDBF9245FC379F7ABE4C261BB /* Pods-emqtt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-emqtt.release.xcconfig"; sourceTree = "<group>"; };
+		B765E8D39AD2D37F98F40DB708036167 /* Pods-emqtt-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-emqtt-acknowledgements.plist"; sourceTree = "<group>"; };
+		B91AC0477FBCB2045D5B0119ABA29034 /* DDDispatchQueueLogFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDDispatchQueueLogFormatter.m; path = Classes/Extensions/DDDispatchQueueLogFormatter.m; sourceTree = "<group>"; };
+		BCBC71C14CBB5CDCA844CC5D1877662F /* DDLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDLog.m; path = Classes/DDLog.m; sourceTree = "<group>"; };
+		BE895120379BE9D98EF5040839CE0FE7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		C004F4EDAA98C3B2BDB3E681557BC1E8 /* DDAbstractDatabaseLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDAbstractDatabaseLogger.h; path = Classes/DDAbstractDatabaseLogger.h; sourceTree = "<group>"; };
+		C2095724A5D067D3455E8C4A91196011 /* CocoaLumberjack-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CocoaLumberjack-dummy.m"; sourceTree = "<group>"; };
+		C307683B7A2FC482E1041711E82C88F6 /* Pods_emqttTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_emqttTests.framework; path = "Pods-emqttTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C54B5F8C28372E0E9A45ADC1B62AA9E2 /* CocoaLumberjack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CocoaLumberjack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C70DA125881E3F483300900A03B11B09 /* Pods-emqttTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-emqttTests-umbrella.h"; sourceTree = "<group>"; };
+		C8738F150856C27B889662EC0BBBDEDA /* DDAssertMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDAssertMacros.h; path = Classes/DDAssertMacros.h; sourceTree = "<group>"; };
+		CB656BBF6B4D342A6C8BE867B4D7B8BD /* MQTTSessionLegacy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MQTTSessionLegacy.h; path = MQTTClient/MQTTClient/MQTTSessionLegacy.h; sourceTree = "<group>"; };
+		CE620B2061A90F7C4F8A955D388B2D63 /* DDMultiFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDMultiFormatter.h; path = Classes/Extensions/DDMultiFormatter.h; sourceTree = "<group>"; };
+		D489231EA8FF534A9A61F2E89EA42591 /* DDTTYLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDTTYLogger.h; path = Classes/DDTTYLogger.h; sourceTree = "<group>"; };
+		D6698DD9D074E17D357C3D53BCF81092 /* DDASLLogCapture.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDASLLogCapture.m; path = Classes/DDASLLogCapture.m; sourceTree = "<group>"; };
+		D816BF9D25A0C09BBF4D90086C5867EF /* Pods-emqttUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-emqttUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DC3FC41D96993F8FE21C940775F93A87 /* Pods-emqtt-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-emqtt-frameworks.sh"; sourceTree = "<group>"; };
+		DE87D5C9D9EDB95E8031D9BF254AF719 /* Pods-emqtt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-emqtt.debug.xcconfig"; sourceTree = "<group>"; };
+		E55EAAA48F924CE338C2344E404DE9DD /* MQTTCFSocketEncoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MQTTCFSocketEncoder.m; path = MQTTClient/MQTTClient/MQTTCFSocketEncoder.m; sourceTree = "<group>"; };
+		E79B8372DAAF418878EBAB1EBA8C1867 /* Pods-emqtt-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-emqtt-umbrella.h"; sourceTree = "<group>"; };
+		EB00E64A33ECC6AB7C8316728DCA6E4E /* MQTTCFSocketEncoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MQTTCFSocketEncoder.h; path = MQTTClient/MQTTClient/MQTTCFSocketEncoder.h; sourceTree = "<group>"; };
+		EDD8D48CF08C72724DB83461C8AB5644 /* MQTTSessionSynchron.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MQTTSessionSynchron.h; path = MQTTClient/MQTTClient/MQTTSessionSynchron.h; sourceTree = "<group>"; };
+		F418FC4369A1CDCA00AC87BF19264A67 /* MQTTTransport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MQTTTransport.m; path = MQTTClient/MQTTClient/MQTTTransport.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08D0DA0F61EFBC3A88B10C77832FC2B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92CAFE32794C04A6FC821A2AC114B936 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23F5B5DB4B2C2F82A91F275E6E96725A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F438FF2B42061581D1EB551A6A62CA7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25FCB9D1ABE23376E7FD97622561CD88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6918001195C9BDB0C62FDB3DEC589CF3 /* CocoaLumberjack.framework in Frameworks */,
+				6D1C48852DA35FAFF2B6B03B6E8F6D58 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B56E66A07ED3AB9F0B263D01DE08F3AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				949EED6F48CC381180BFD95B16B07505 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCC2C91909E9DAF749761623B098B20D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A05584F11DE75009B36CC58AEBF9308 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AF7CC0906B80459ACC4E1F96D26E68B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				11257968AEAFF1B22CA98D97FEA8FBE1 /* Pods-emqtt */,
+				8402DDB9419661BB6CB3493CA4396B6C /* Pods-emqttTests */,
+				5FC53A847A45E37892DA917A84B87373 /* Pods-emqttUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		11257968AEAFF1B22CA98D97FEA8FBE1 /* Pods-emqtt */ = {
+			isa = PBXGroup;
+			children = (
+				704AECA1F8615E44FCDCB7E10C508E06 /* Pods-emqtt.modulemap */,
+				4E6D5F64F1C56A98E03F180B76F4E853 /* Pods-emqtt-acknowledgements.markdown */,
+				B765E8D39AD2D37F98F40DB708036167 /* Pods-emqtt-acknowledgements.plist */,
+				6FB4891830B9AC204E4A7102DE70915D /* Pods-emqtt-dummy.m */,
+				DC3FC41D96993F8FE21C940775F93A87 /* Pods-emqtt-frameworks.sh */,
+				8EBB14DF8171DC326B6D34609EB7F129 /* Pods-emqtt-Info.plist */,
+				E79B8372DAAF418878EBAB1EBA8C1867 /* Pods-emqtt-umbrella.h */,
+				DE87D5C9D9EDB95E8031D9BF254AF719 /* Pods-emqtt.debug.xcconfig */,
+				B66BCA4FDBF9245FC379F7ABE4C261BB /* Pods-emqtt.release.xcconfig */,
+			);
+			name = "Pods-emqtt";
+			path = "Target Support Files/Pods-emqtt";
+			sourceTree = "<group>";
+		};
+		1139643B5C5AC76CCB6D675F676D7EDA /* Min */ = {
+			isa = PBXGroup;
+			children = (
+				6F41408BF9746D114411D7CAC75D2296 /* MQTTCFSocketDecoder.h */,
+				A960092389B6AB25A9A622E23FA79C5D /* MQTTCFSocketDecoder.m */,
+				EB00E64A33ECC6AB7C8316728DCA6E4E /* MQTTCFSocketEncoder.h */,
+				E55EAAA48F924CE338C2344E404DE9DD /* MQTTCFSocketEncoder.m */,
+				3CB02CA29847895989794454CC023E6C /* MQTTCFSocketTransport.h */,
+				7A3FAF7AA47E457C449766FC7B7E7B5F /* MQTTCFSocketTransport.m */,
+				1CB8AC8D9EB402E1960A76E6BFA50788 /* MQTTClient.h */,
+				B32AE4F96C2A3B7BE04E53CDAD34A609 /* MQTTCoreDataPersistence.h */,
+				AE87499E2FB333A21D91927CF2DB5B1B /* MQTTCoreDataPersistence.m */,
+				5739454F3A911E2556A7507FB9A62067 /* MQTTDecoder.h */,
+				AF52DB7090ED071383B50E69E3C45F3C /* MQTTDecoder.m */,
+				70BC1ED27B55757F644E80F4D62288C3 /* MQTTInMemoryPersistence.h */,
+				512D2A01A5558A094411941E8AAB5599 /* MQTTInMemoryPersistence.m */,
+				A2CB7DC782D49AE4CAFE9AD198686FAE /* MQTTLog.h */,
+				9A02DB26C0B90D5B23DF62A326FE43CD /* MQTTMessage.h */,
+				A4F1935BEBAC5F225FFDF5B10336DB56 /* MQTTMessage.m */,
+				32A0B99E47217AA0C2603A76E9CA2AE0 /* MQTTPersistence.h */,
+				05BBCF588559A78E384AEB3FA0312C17 /* MQTTSession.h */,
+				40BF14439849F9A2D0CEF51465F15898 /* MQTTSession.m */,
+				CB656BBF6B4D342A6C8BE867B4D7B8BD /* MQTTSessionLegacy.h */,
+				5EB4AC7242CE827FADEAAABD0FBCCF46 /* MQTTSessionLegacy.m */,
+				EDD8D48CF08C72724DB83461C8AB5644 /* MQTTSessionSynchron.h */,
+				256DB04B347256FD9CFD2C9E122B094E /* MQTTSessionSynchron.m */,
+				18E867B2DAEA5ECDA7DAE4FFFD953D63 /* MQTTSSLSecurityPolicy.h */,
+				53AE802000EB048F2A858D54C6CFB1C4 /* MQTTSSLSecurityPolicy.m */,
+				23D295EA52691E3BE0F1352CCB715AC1 /* MQTTSSLSecurityPolicyDecoder.h */,
+				8B2C5F2A3F3C702A18F40538AA14089D /* MQTTSSLSecurityPolicyDecoder.m */,
+				6FECAD846D64FA43987ED251B86A68BC /* MQTTSSLSecurityPolicyEncoder.h */,
+				94CE643DB172FA21FBD2C920FBF81EE0 /* MQTTSSLSecurityPolicyEncoder.m */,
+				3FD0DAD5875C8CD5ED17BD0741B36391 /* MQTTSSLSecurityPolicyTransport.h */,
+				1C510AB3AA3FB7F1D9B7B4D43563F7F0 /* MQTTSSLSecurityPolicyTransport.m */,
+				104422416713215B22C50A46746FA2AE /* MQTTTransport.h */,
+				F418FC4369A1CDCA00AC87BF19264A67 /* MQTTTransport.m */,
+			);
+			name = Min;
+			sourceTree = "<group>";
+		};
+		11F083AD06C2CABD5A51C8DC4CB45CD2 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				95B2E2D61F57F605CFAF4FB9C59B2A64 /* MQTTSessionManager.h */,
+				3DF37977827ECC6920851687906D6643 /* MQTTSessionManager.m */,
+			);
+			name = Manager;
+			sourceTree = "<group>";
+		};
+		26C0E5BBD08E77D001EBA80ABD32817F /* MQTTClient */ = {
+			isa = PBXGroup;
+			children = (
+				11F083AD06C2CABD5A51C8DC4CB45CD2 /* Manager */,
+				1139643B5C5AC76CCB6D675F676D7EDA /* Min */,
+				FF5E615FECDB5596904F3E7E59566ACF /* Support Files */,
+			);
+			name = MQTTClient;
+			path = MQTTClient;
+			sourceTree = "<group>";
+		};
+		3AE2F077A92FDD2B1A25305D206D02F0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D1BA799D025B2485102352F82610280A /* CocoaLumberjack */,
+				26C0E5BBD08E77D001EBA80ABD32817F /* MQTTClient */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5FC53A847A45E37892DA917A84B87373 /* Pods-emqttUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0DB3C12D212B38BD406CAF685C0FDDB0 /* Pods-emqttUITests.modulemap */,
+				60736577CFE18521EF7441545215D1E6 /* Pods-emqttUITests-acknowledgements.markdown */,
+				D816BF9D25A0C09BBF4D90086C5867EF /* Pods-emqttUITests-acknowledgements.plist */,
+				2F6A827410DDC0F64FA48F8449C7046F /* Pods-emqttUITests-dummy.m */,
+				43979DF39375131EE773CD7760ED8C6B /* Pods-emqttUITests-Info.plist */,
+				061BB7F2BFB6037CE403D1852758EE8B /* Pods-emqttUITests-umbrella.h */,
+				81A9B2CD19D77D73F62A4D659B33A557 /* Pods-emqttUITests.debug.xcconfig */,
+				B42C8709ABD90A071DF23ED4FC67AFDC /* Pods-emqttUITests.release.xcconfig */,
+			);
+			name = "Pods-emqttUITests";
+			path = "Target Support Files/Pods-emqttUITests";
+			sourceTree = "<group>";
+		};
+		65C8761020F02194AC5C7705027493AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B4F555E5F77359DF334253D2E28F8FF /* CocoaLumberjack.framework */,
+				3F62C6F375CCFEB79ADBC113CF3855E4 /* MQTTClient.framework */,
+				54E20DF9FB767BE2188A0AFB8D6A1A92 /* Pods_emqtt.framework */,
+				C307683B7A2FC482E1041711E82C88F6 /* Pods_emqttTests.framework */,
+				A9687E234F537BC2EC19A0DA29B60B05 /* Pods_emqttUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		739E86F8A55544404F55654279AA1594 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				29EA188A439D07684936B567C88FF009 /* DDContextFilterLogFormatter.h */,
+				84F974FA534454B0F546F56EEF203927 /* DDContextFilterLogFormatter.m */,
+				2D88568B129D828B81DF76900C634397 /* DDDispatchQueueLogFormatter.h */,
+				B91AC0477FBCB2045D5B0119ABA29034 /* DDDispatchQueueLogFormatter.m */,
+				CE620B2061A90F7C4F8A955D388B2D63 /* DDMultiFormatter.h */,
+				8E3A46FDE685AD82B424C3A28E61AEC0 /* DDMultiFormatter.m */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		80860982248BE58E37E168B6EFB6FA46 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C54B5F8C28372E0E9A45ADC1B62AA9E2 /* CocoaLumberjack.framework */,
+				EAD9B5341344531E0F2159E5D305FD24 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8402DDB9419661BB6CB3493CA4396B6C /* Pods-emqttTests */ = {
+			isa = PBXGroup;
+			children = (
+				3BF31CE218913A11ABBE99B44BD1D67E /* Pods-emqttTests.modulemap */,
+				62FA4F39B23007084DB0955BBE4B0715 /* Pods-emqttTests-acknowledgements.markdown */,
+				B5310A19A8A3FB3804E7D73FD29FF15F /* Pods-emqttTests-acknowledgements.plist */,
+				196D793E6710DCF5BBEDCB8D18F9F84E /* Pods-emqttTests-dummy.m */,
+				A5DC245CA7A995AEF409209027C9D602 /* Pods-emqttTests-Info.plist */,
+				C70DA125881E3F483300900A03B11B09 /* Pods-emqttTests-umbrella.h */,
+				929D692A5333B81959FAD8B4459A980F /* Pods-emqttTests.debug.xcconfig */,
+				B4EE4106B556978ED55E1D4F7B6229F7 /* Pods-emqttTests.release.xcconfig */,
+			);
+			name = "Pods-emqttTests";
+			path = "Target Support Files/Pods-emqttTests";
+			sourceTree = "<group>";
+		};
+		AEAD2270EFE8CDBE7E44F714AB895CB5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4493A0E636F961FEF43818C291856399 /* CocoaLumberjack.modulemap */,
+				38D633028095652865573E5037B48C60 /* CocoaLumberjack.xcconfig */,
+				C2095724A5D067D3455E8C4A91196011 /* CocoaLumberjack-dummy.m */,
+				5473BB7B15211E9DC734DE3D1F84EDCC /* CocoaLumberjack-Info.plist */,
+				0297B7F9F7FCB66016DD6386B5E4E2E7 /* CocoaLumberjack-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CocoaLumberjack";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				80860982248BE58E37E168B6EFB6FA46 /* Frameworks */,
+				3AE2F077A92FDD2B1A25305D206D02F0 /* Pods */,
+				65C8761020F02194AC5C7705027493AB /* Products */,
+				0AF7CC0906B80459ACC4E1F96D26E68B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D1BA799D025B2485102352F82610280A /* CocoaLumberjack */ = {
+			isa = PBXGroup;
+			children = (
+				ECA228C9CE9F79A7A98367C30CD8133F /* Core */,
+				FFCB0A15911B70B5EBCD9E064DA4C000 /* Default */,
+				739E86F8A55544404F55654279AA1594 /* Extensions */,
+				AEAD2270EFE8CDBE7E44F714AB895CB5 /* Support Files */,
+			);
+			name = CocoaLumberjack;
+			path = CocoaLumberjack;
+			sourceTree = "<group>";
+		};
+		EAD9B5341344531E0F2159E5D305FD24 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				BE895120379BE9D98EF5040839CE0FE7 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		ECA228C9CE9F79A7A98367C30CD8133F /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				C004F4EDAA98C3B2BDB3E681557BC1E8 /* DDAbstractDatabaseLogger.h */,
+				25C919B03CBE53CBF962902079585EE1 /* DDAbstractDatabaseLogger.m */,
+				4181C81FAE896307C8FCFBD9BF39E09D /* DDASLLogCapture.h */,
+				D6698DD9D074E17D357C3D53BCF81092 /* DDASLLogCapture.m */,
+				980BEA78DBB92DEAFA42C0EE9E4CE385 /* DDASLLogger.h */,
+				1590384E6C7919A8AE095316C6C448B2 /* DDASLLogger.m */,
+				C8738F150856C27B889662EC0BBBDEDA /* DDAssertMacros.h */,
+				3A3C6C7E0C3F6DC35AEA65D18AB193D4 /* DDFileLogger.h */,
+				76AE7844284A36329E0925E2B5AC1CE4 /* DDFileLogger.m */,
+				A4C6402C9BC59FB700D3070F29773276 /* DDLegacyMacros.h */,
+				2EA942EF4B7274F3DD111C321CF0C7FA /* DDLog.h */,
+				BCBC71C14CBB5CDCA844CC5D1877662F /* DDLog.m */,
+				78CE940F485015593B2F1D61D51DA7C8 /* DDLog+LOGV.h */,
+				A7350092E3C90A79AE9C18E77B7BD5F2 /* DDLogMacros.h */,
+				D489231EA8FF534A9A61F2E89EA42591 /* DDTTYLogger.h */,
+				6380A9FAF9077C911C426EE113EF3121 /* DDTTYLogger.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		FF5E615FECDB5596904F3E7E59566ACF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE9F2B425027F38CF5F5912AAC615B07 /* MQTTClient.modulemap */,
+				55D5FF85C7B7A130658120321D9B7A37 /* MQTTClient.xcconfig */,
+				8B00B8BCA6E2AB8EBB99356D3576673E /* MQTTClient-dummy.m */,
+				6919288B2E8E01C5CD5959DD4016F92A /* MQTTClient-Info.plist */,
+				62152E3B6BA8DC8DCC09549D0EDBF54B /* MQTTClient-prefix.pch */,
+				B567A56E2FB83F945C32483561FAB4E4 /* MQTTClient-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MQTTClient";
+			sourceTree = "<group>";
+		};
+		FFCB0A15911B70B5EBCD9E064DA4C000 /* Default */ = {
+			isa = PBXGroup;
+			children = (
+				890981B31110ED4A3E7477C3834C63D0 /* CocoaLumberjack.h */,
+			);
+			name = Default;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1C3E0BE7EC7BD3B6BBEDDB15005F573F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20E4C2D2E3A8FBF4EE7280DC00F08052 /* CocoaLumberjack.h in Headers */,
+				A1D8B2E90A4C68C90CCA0BA78B58E23A /* DDAbstractDatabaseLogger.h in Headers */,
+				440ED7058292E892922DF16DF6270D80 /* DDASLLogCapture.h in Headers */,
+				E3796B2915942032D0E29FD6AA647E33 /* DDASLLogger.h in Headers */,
+				84089CE7912FCE2E865A7541D4D646BC /* DDAssertMacros.h in Headers */,
+				EBC118173BE8DA30A0259FF10ECAB567 /* DDContextFilterLogFormatter.h in Headers */,
+				21AC56E876CCC672A97BA46A54947793 /* DDDispatchQueueLogFormatter.h in Headers */,
+				07D58AE597DBD36A8C6A0753CC9D95DB /* DDFileLogger.h in Headers */,
+				71DA9BA1C4D396B5F0D1B66E90F57224 /* DDLegacyMacros.h in Headers */,
+				EFC2C74CC757017953D46E9484488C39 /* DDLog+LOGV.h in Headers */,
+				CA6C73C03FC11496712BC31F27C89577 /* DDLog.h in Headers */,
+				CF24B401E0D7B990DA760663E371698E /* DDLogMacros.h in Headers */,
+				555BEA56D6E419DE88F5AD16A5C16665 /* DDMultiFormatter.h in Headers */,
+				5DB1EBE1892D282CC8D239A5417188E7 /* DDTTYLogger.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23BDC84FF895F43EF1C16B1CD5300AD7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6525E57B07A1FD75630D25AE33C0021 /* Pods-emqttUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6735729D180148B5F662A643BA3B37D7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7921BD5740D6A6A325E189B6EE194BFC /* Pods-emqtt-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7BA23FA5F603F8CE602CAB3BCF61330 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F6493936722171241852612DC3D2E80 /* Pods-emqttTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F89D81177D8BC228958B5C10B2F41D25 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3060298E469E59E34CBCFBFDFA73ABB /* MQTTCFSocketDecoder.h in Headers */,
+				624BABF452CDC42C91D7E9B376FFA00B /* MQTTCFSocketEncoder.h in Headers */,
+				F22D9AE948F670255F13DCA41A96EDD6 /* MQTTCFSocketTransport.h in Headers */,
+				242F6B967053165C909842552A0BEE21 /* MQTTClient-umbrella.h in Headers */,
+				3816A30D7E3BDC68526D1E566AA56BE0 /* MQTTClient.h in Headers */,
+				E468F5BDE403594FFF9CD339FDCA6157 /* MQTTCoreDataPersistence.h in Headers */,
+				DE8B190AD52FABD9D5AF6D6CBD6ECF86 /* MQTTDecoder.h in Headers */,
+				1C40C4D57B78EB4CC9EB35D567212187 /* MQTTInMemoryPersistence.h in Headers */,
+				5D5B973722947F9C757747B2D26EDF79 /* MQTTLog.h in Headers */,
+				B8F9A0A7C85CFFF3B78A4C4A881CD68C /* MQTTMessage.h in Headers */,
+				930757E01D160502266DF25E880B306F /* MQTTPersistence.h in Headers */,
+				436AE466682B642CD6B8243CD439669A /* MQTTSession.h in Headers */,
+				B60128D8C5C2243076602988AE85499A /* MQTTSessionLegacy.h in Headers */,
+				05E02F644621830AD1B6AFCB360E4B63 /* MQTTSessionManager.h in Headers */,
+				D81C650E58F5652F51C413B215E3C0B1 /* MQTTSessionSynchron.h in Headers */,
+				482D5787F02589814442A88FE01DBDAD /* MQTTSSLSecurityPolicy.h in Headers */,
+				4FFBF72711EC7EB2533868C9DA06AEE7 /* MQTTSSLSecurityPolicyDecoder.h in Headers */,
+				0486524376D0C28533F2FCC80BC908E8 /* MQTTSSLSecurityPolicyEncoder.h in Headers */,
+				7F5AE36B7178B1469CEFE863886A7B49 /* MQTTSSLSecurityPolicyTransport.h in Headers */,
+				F36E633C82BFFB3F922A855009DC0826 /* MQTTTransport.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0E97A1CA5F12BE379F8C802C3FD7CD30 /* Pods-emqtt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36A08FC325B0A11AF6941BA39BADFBB0 /* Build configuration list for PBXNativeTarget "Pods-emqtt" */;
+			buildPhases = (
+				6735729D180148B5F662A643BA3B37D7 /* Headers */,
+				8DE107D39C9C6A9EF0D54CAB64E0AF58 /* Sources */,
+				23F5B5DB4B2C2F82A91F275E6E96725A /* Frameworks */,
+				3F4F7316AAFF0942A7FE588C3C38C4E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A54C09507F7C3897CCFE2E3CC7F090DE /* PBXTargetDependency */,
+				54339B7468D6C01DA29E35D5A7131664 /* PBXTargetDependency */,
+			);
+			name = "Pods-emqtt";
+			productName = "Pods-emqtt";
+			productReference = 54E20DF9FB767BE2188A0AFB8D6A1A92 /* Pods_emqtt.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		18D5937A1FF4E1064BDE592E5E9532EA /* MQTTClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAD01E11AAB577E183DEDF730573A05A /* Build configuration list for PBXNativeTarget "MQTTClient" */;
+			buildPhases = (
+				F89D81177D8BC228958B5C10B2F41D25 /* Headers */,
+				91A78FE381348464DD397B274B5F52EA /* Sources */,
+				25FCB9D1ABE23376E7FD97622561CD88 /* Frameworks */,
+				2C62435B2A49CCFE1B42B32DBF46177E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39EAFAFB1BB7BBE4CE5FBC11D956E169 /* PBXTargetDependency */,
+			);
+			name = MQTTClient;
+			productName = MQTTClient;
+			productReference = 3F62C6F375CCFEB79ADBC113CF3855E4 /* MQTTClient.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2C9C5C9883E24C2D33FEA6602E906865 /* Pods-emqttUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 781D61A3F3CFCB3A041D122434BE5DCB /* Build configuration list for PBXNativeTarget "Pods-emqttUITests" */;
+			buildPhases = (
+				23BDC84FF895F43EF1C16B1CD5300AD7 /* Headers */,
+				8ABB12B83C181E0C71322ABBB8F10AF5 /* Sources */,
+				08D0DA0F61EFBC3A88B10C77832FC2B8 /* Frameworks */,
+				DF0583AB7B19E4F6A1EEBA765077C8CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				290F3CBB20C0F33CBE3F438D4D4AA226 /* PBXTargetDependency */,
+			);
+			name = "Pods-emqttUITests";
+			productName = "Pods-emqttUITests";
+			productReference = A9687E234F537BC2EC19A0DA29B60B05 /* Pods_emqttUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		60382ACC1C692BE35D0766618E43C116 /* Pods-emqttTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15468BCD5D6D3F9F0CC2971D6086B0B9 /* Build configuration list for PBXNativeTarget "Pods-emqttTests" */;
+			buildPhases = (
+				F7BA23FA5F603F8CE602CAB3BCF61330 /* Headers */,
+				14E1048925A35FBB6C75608A538A7C43 /* Sources */,
+				BCC2C91909E9DAF749761623B098B20D /* Frameworks */,
+				44E55F5BE2BAC1B4AA0799D0D508152D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAF3DEAEAC1729EE672BE8FD3BDC3859 /* PBXTargetDependency */,
+			);
+			name = "Pods-emqttTests";
+			productName = "Pods-emqttTests";
+			productReference = C307683B7A2FC482E1041711E82C88F6 /* Pods_emqttTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E95654B155D25890BE8E26081FCA8265 /* CocoaLumberjack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15542563CBEA6FB00568E5BEDA1F5AED /* Build configuration list for PBXNativeTarget "CocoaLumberjack" */;
+			buildPhases = (
+				1C3E0BE7EC7BD3B6BBEDDB15005F573F /* Headers */,
+				08D516004F78E186C57494488DBBAD1B /* Sources */,
+				B56E66A07ED3AB9F0B263D01DE08F3AE /* Frameworks */,
+				5FD542D430267AA80E3B1392C900ED1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CocoaLumberjack;
+			productName = CocoaLumberjack;
+			productReference = 6B4F555E5F77359DF334253D2E28F8FF /* CocoaLumberjack.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 65C8761020F02194AC5C7705027493AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E95654B155D25890BE8E26081FCA8265 /* CocoaLumberjack */,
+				18D5937A1FF4E1064BDE592E5E9532EA /* MQTTClient */,
+				0E97A1CA5F12BE379F8C802C3FD7CD30 /* Pods-emqtt */,
+				60382ACC1C692BE35D0766618E43C116 /* Pods-emqttTests */,
+				2C9C5C9883E24C2D33FEA6602E906865 /* Pods-emqttUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C62435B2A49CCFE1B42B32DBF46177E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F4F7316AAFF0942A7FE588C3C38C4E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44E55F5BE2BAC1B4AA0799D0D508152D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FD542D430267AA80E3B1392C900ED1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF0583AB7B19E4F6A1EEBA765077C8CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08D516004F78E186C57494488DBBAD1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09530F788D33288F418BF957B331CA98 /* CocoaLumberjack-dummy.m in Sources */,
+				73821CC0DBCF103FD710764B2FCD4AB7 /* DDAbstractDatabaseLogger.m in Sources */,
+				66E12DE1E8F1AAE07824E3541F9CE8DF /* DDASLLogCapture.m in Sources */,
+				844C12EBA5A1D9A7542A3D3EA7C68CEF /* DDASLLogger.m in Sources */,
+				A7755C64BEC4BDDD9E9C7A1FFDD00EE4 /* DDContextFilterLogFormatter.m in Sources */,
+				C09CF18AC416134EB9A48C1F5DDA30B4 /* DDDispatchQueueLogFormatter.m in Sources */,
+				F271CF75A7188BD907207DDD6AD9FE9C /* DDFileLogger.m in Sources */,
+				D6DD09D085815F237FE0413FFE890D41 /* DDLog.m in Sources */,
+				A0AAE45163E864616A9C74340E8B500D /* DDMultiFormatter.m in Sources */,
+				598B2727E6877770B6AB385EF39A3955 /* DDTTYLogger.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14E1048925A35FBB6C75608A538A7C43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AC10BCAF99C55C05358D48EAE43ABE1 /* Pods-emqttTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8ABB12B83C181E0C71322ABBB8F10AF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85F315B4ACED12ADE2D19CF8D697D30D /* Pods-emqttUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DE107D39C9C6A9EF0D54CAB64E0AF58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D912DEBB59095813DB51615F222A53F /* Pods-emqtt-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91A78FE381348464DD397B274B5F52EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E5F7F980914116488E7BF8475B25AFC /* MQTTCFSocketDecoder.m in Sources */,
+				B4E5146EE9500BD45D0DCC7E6D11A52B /* MQTTCFSocketEncoder.m in Sources */,
+				4E5F5F785D29FDE98D5EF43210C09E51 /* MQTTCFSocketTransport.m in Sources */,
+				EC060F2D2A6EAA0873553CC34A74328E /* MQTTClient-dummy.m in Sources */,
+				C49CA9548538E93C79C5A22537421E12 /* MQTTCoreDataPersistence.m in Sources */,
+				C1F971C5CC169692AD03929CC08BBE42 /* MQTTDecoder.m in Sources */,
+				6BE40C1D39187EF49FE84888C77DACC1 /* MQTTInMemoryPersistence.m in Sources */,
+				B15C231A9095D89E3DBAAE4B24E659D9 /* MQTTMessage.m in Sources */,
+				AF63B684B998A1CA4DF52D244E646CD7 /* MQTTSession.m in Sources */,
+				07648C73DBBACF07DA595524C37E1927 /* MQTTSessionLegacy.m in Sources */,
+				E2056C6873AE99613259C81D21B1CB73 /* MQTTSessionManager.m in Sources */,
+				E7D8368EBE5EF7F2ED963AFE95D0AB3A /* MQTTSessionSynchron.m in Sources */,
+				419387695413E83DB5D41FD434F620A1 /* MQTTSSLSecurityPolicy.m in Sources */,
+				67018D79A6764C76B5606D5E7F91DFCF /* MQTTSSLSecurityPolicyDecoder.m in Sources */,
+				1810E37D69AF5D8A85B3AAF5F62C8A23 /* MQTTSSLSecurityPolicyEncoder.m in Sources */,
+				7BD2B9D030B1971FB07005835C64B44C /* MQTTSSLSecurityPolicyTransport.m in Sources */,
+				F719EB5EE4A9A3A8FDA16A5AE9BC6016 /* MQTTTransport.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		290F3CBB20C0F33CBE3F438D4D4AA226 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-emqtt";
+			target = 0E97A1CA5F12BE379F8C802C3FD7CD30 /* Pods-emqtt */;
+			targetProxy = 3405E5ECF260D91C40153F405E9A7970 /* PBXContainerItemProxy */;
+		};
+		39EAFAFB1BB7BBE4CE5FBC11D956E169 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CocoaLumberjack;
+			target = E95654B155D25890BE8E26081FCA8265 /* CocoaLumberjack */;
+			targetProxy = E10CE1D415F39598EF0C3F1CD8D6902A /* PBXContainerItemProxy */;
+		};
+		54339B7468D6C01DA29E35D5A7131664 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MQTTClient;
+			target = 18D5937A1FF4E1064BDE592E5E9532EA /* MQTTClient */;
+			targetProxy = 2AD3B64D05B2059B37CAEFF7DEC5E8FE /* PBXContainerItemProxy */;
+		};
+		A54C09507F7C3897CCFE2E3CC7F090DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CocoaLumberjack;
+			target = E95654B155D25890BE8E26081FCA8265 /* CocoaLumberjack */;
+			targetProxy = 31F3A67E4B993D4080B539D1FA527BC9 /* PBXContainerItemProxy */;
+		};
+		AAF3DEAEAC1729EE672BE8FD3BDC3859 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-emqtt";
+			target = 0E97A1CA5F12BE379F8C802C3FD7CD30 /* Pods-emqtt */;
+			targetProxy = DEE514018F3F33859301F87EF87FE235 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		019C0E5C2C144828919C7DF3CA30A870 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B42C8709ABD90A071DF23ED4FC67AFDC /* Pods-emqttUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-emqttUITests/Pods-emqttUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-emqttUITests/Pods-emqttUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		131356BE54884448CA49C07BEDF4BB2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2BAF949AF80D689EB3B1C50F3D7F9340 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55D5FF85C7B7A130658120321D9B7A37 /* MQTTClient.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MQTTClient/MQTTClient-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MQTTClient/MQTTClient-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MQTTClient/MQTTClient.modulemap";
+				PRODUCT_MODULE_NAME = MQTTClient;
+				PRODUCT_NAME = MQTTClient;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5D802B7173A937C0A854B25215EF0309 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 929D692A5333B81959FAD8B4459A980F /* Pods-emqttTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-emqttTests/Pods-emqttTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-emqttTests/Pods-emqttTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		71455B364FCB59087AEEB176C525EA39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4EE4106B556978ED55E1D4F7B6229F7 /* Pods-emqttTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-emqttTests/Pods-emqttTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-emqttTests/Pods-emqttTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9FED20955923B2AE9758BDFFBF986D17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55D5FF85C7B7A130658120321D9B7A37 /* MQTTClient.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MQTTClient/MQTTClient-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MQTTClient/MQTTClient-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MQTTClient/MQTTClient.modulemap";
+				PRODUCT_MODULE_NAME = MQTTClient;
+				PRODUCT_NAME = MQTTClient;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AAF44FC3FFE8994793913DBCF3BB93CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38D633028095652865573E5037B48C60 /* CocoaLumberjack.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaLumberjack/CocoaLumberjack-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CocoaLumberjack/CocoaLumberjack-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CocoaLumberjack/CocoaLumberjack.modulemap";
+				PRODUCT_MODULE_NAME = CocoaLumberjack;
+				PRODUCT_NAME = CocoaLumberjack;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C026ADAE40D43F63764D1A6CAB282BFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38D633028095652865573E5037B48C60 /* CocoaLumberjack.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaLumberjack/CocoaLumberjack-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CocoaLumberjack/CocoaLumberjack-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CocoaLumberjack/CocoaLumberjack.modulemap";
+				PRODUCT_MODULE_NAME = CocoaLumberjack;
+				PRODUCT_NAME = CocoaLumberjack;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E7A2E454EB9DF07CFA5934C152F17A09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B66BCA4FDBF9245FC379F7ABE4C261BB /* Pods-emqtt.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-emqtt/Pods-emqtt-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-emqtt/Pods-emqtt.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F090CD07A80273D5A73C8EA19224ADDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		F7FE912CCA2B7F67AB6A208151F7BA20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81A9B2CD19D77D73F62A4D659B33A557 /* Pods-emqttUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-emqttUITests/Pods-emqttUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-emqttUITests/Pods-emqttUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FC7ABCAB8161D645231C02BC13B56D7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE87D5C9D9EDB95E8031D9BF254AF719 /* Pods-emqtt.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-emqtt/Pods-emqtt-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-emqtt/Pods-emqtt.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15468BCD5D6D3F9F0CC2971D6086B0B9 /* Build configuration list for PBXNativeTarget "Pods-emqttTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D802B7173A937C0A854B25215EF0309 /* Debug */,
+				71455B364FCB59087AEEB176C525EA39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15542563CBEA6FB00568E5BEDA1F5AED /* Build configuration list for PBXNativeTarget "CocoaLumberjack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C026ADAE40D43F63764D1A6CAB282BFA /* Debug */,
+				AAF44FC3FFE8994793913DBCF3BB93CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36A08FC325B0A11AF6941BA39BADFBB0 /* Build configuration list for PBXNativeTarget "Pods-emqtt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC7ABCAB8161D645231C02BC13B56D7D /* Debug */,
+				E7A2E454EB9DF07CFA5934C152F17A09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				131356BE54884448CA49C07BEDF4BB2A /* Debug */,
+				F090CD07A80273D5A73C8EA19224ADDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		781D61A3F3CFCB3A041D122434BE5DCB /* Build configuration list for PBXNativeTarget "Pods-emqttUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7FE912CCA2B7F67AB6A208151F7BA20 /* Debug */,
+				019C0E5C2C144828919C7DF3CA30A870 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAD01E11AAB577E183DEDF730573A05A /* Build configuration list for PBXNativeTarget "MQTTClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FED20955923B2AE9758BDFFBF986D17 /* Debug */,
+				2BAF949AF80D689EB3B1C50F3D7F9340 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_emqtt {
+  umbrella header "Pods-emqtt-umbrella.h"
+
+  export *
+  module * { export * }
+}
